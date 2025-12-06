@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'test'
-        run: pwd
-      - name: 'test print'
-        run: echo mohamed
+      - name: 'print floder'
+        run: ls
+
