@@ -10,6 +10,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'print floder'
+      - name: 'print floder before'
         run: ls
+
+      - uses: actions/checkout@v3
+
+      - name: 'print floder after'
+        run: ls
+
 
